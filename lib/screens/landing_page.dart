@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lat_project/const.dart';
 import 'package:lat_project/latihanmodul/latihanp6.dart';
 import 'package:lat_project/models/landing_model.dart';
+import 'package:lat_project/screens/home_page.dart';
 
 class LandingPageOne extends StatefulWidget {
   const LandingPageOne({super.key});
@@ -114,7 +115,7 @@ class _LandingPageOneState extends State<LandingPageOne> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Pertemuan6(),
+                                  builder: (context) => HomePage(),
                                 ),
                               );
                             },
