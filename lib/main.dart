@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lat_project/latihanmodul/latihanp5.dart';
 import 'package:lat_project/latihanmodul/latihanp6.dart';
+import 'package:lat_project/latihanmodul/latihanp9_api.dart';
 import 'package:lat_project/screens/home_page.dart';
 import 'package:lat_project/screens/landing_page.dart';
 import 'package:lat_project/screens/splash_screen.dart';
@@ -14,7 +15,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
